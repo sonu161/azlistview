@@ -31,7 +31,7 @@ class AzListView extends StatefulWidget {
   }) : super(key: key);
 
   /// with  ISuspensionBean Data
-  final List<ISuspensionBean> data;
+  final List data;
 
   /// Number of items the [itemBuilder] can produce.
   final int itemCount;
