@@ -134,7 +134,7 @@ class _AzListViewState extends State<AzListView> {
 
   int _getIndex(String tag) {
     for (int i = 0; i < widget.itemCount; i++) {
-      ISuspensionBean bean = widget.data[i];
+      var bean = widget.data[i];
       if (tag == bean.getSuspensionTag()) {
         return i;
       }
